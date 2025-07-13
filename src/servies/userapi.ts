@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://admin-panel-backend-prlz.onrender.com/api',
 });
 
 export const register = (data: any) => API.post('/register', data);
